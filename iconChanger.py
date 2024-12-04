@@ -34,12 +34,17 @@ applications = {
     "brave-browser": "/usr/share/applications/brave-browser.desktop",
     "spotify": "/usr/share/applications/spotify.desktop",
     "gnome-todo": "/usr/share/applications/org.gnome.Todo.desktop",
+    "nvim": "/usr/share/applications/nvim.desktop",
+    "alacritty": "/usr/share/applications/Alacritty.desktop",
+
 }
 
 new_icons = {
     "brave-browser": "/home/lakshan/Applications/resetIcons/CustomIcons/brave-desktop.svg",
     "spotify": "/home/lakshan/Applications/resetIcons/CustomIcons/spotify.svg",
     "gnome-todo": "/home/lakshan/Applications/resetIcons/CustomIcons/org.gnome.Todo.svg",
+    "nvim": "/home/lakshan/Applications/resetIcons/CustomIcons/nvim.svg",
+    "alacritty": "/home/lakshan/Applications/resetIcons/CustomIcons/alacritty.svg",
 }
 
 # Update icons for each application
