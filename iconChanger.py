@@ -29,6 +29,7 @@ def update_icon(file_path, new_icon_path):
     except FileNotFoundError:
         print(f"File not found: Check that the path to {file_path} is correct.")
 
+
 # Paths and icons for each application
 applications = {
     "brave-browser": "/usr/share/applications/brave-browser.desktop",
@@ -36,6 +37,7 @@ applications = {
     "gnome-todo": "/usr/share/applications/org.gnome.Todo.desktop",
     "nvim": "/usr/share/applications/nvim.desktop",
     "alacritty": "/usr/share/applications/Alacritty.desktop",
+    "vesktop": "/usr/share/applications/vesktop.desktop",
 
 }
 
@@ -45,6 +47,7 @@ new_icons = {
     "gnome-todo": "/home/lakshan/Applications/resetIcons/CustomIcons/org.gnome.Todo.svg",
     "nvim": "/home/lakshan/Applications/resetIcons/CustomIcons/nvim.svg",
     "alacritty": "/home/lakshan/Applications/resetIcons/CustomIcons/alacritty.svg",
+    "vesktop": "/home/lakshan/Applications/resetIcons/CustomIcons/clamtk.svg",
 }
 
 # Update icons for each application
