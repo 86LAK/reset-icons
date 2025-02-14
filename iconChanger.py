@@ -38,6 +38,7 @@ applications = {
     "nvim": "/usr/share/applications/nvim.desktop",
     "alacritty": "/usr/share/applications/Alacritty.desktop",
     "vesktop": "/usr/share/applications/vesktop.desktop",
+    "obsidian": "/usr/share/applications/obsidian.desktop",
 
 }
 
@@ -48,6 +49,7 @@ new_icons = {
     "nvim": "/home/lakshan/Applications/resetIcons/CustomIcons/nvim.svg",
     "alacritty": "/home/lakshan/Applications/resetIcons/CustomIcons/alacritty.svg",
     "vesktop": "/home/lakshan/Applications/resetIcons/CustomIcons/clamtk.svg",
+    "obsidian": "/home/lakshan/Applications/resetIcons/CustomIcons/obsidian.svg",
 }
 
 # Update icons for each application
