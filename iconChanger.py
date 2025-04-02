@@ -1,5 +1,6 @@
 import os
 
+
 def update_icon(file_path, new_icon_path):
     """
     Updates the Icon line in a .desktop file with a new icon path.
@@ -22,12 +23,15 @@ def update_icon(file_path, new_icon_path):
                 else:
                     file.write(line)
 
-        print(f"Icon path for {os.path.basename(file_path)} updated successfully.")
+        print(f"Icon path for {os.path.basename(
+            file_path)} updated successfully.")
 
     except PermissionError:
-        print(f"Permission denied: Try running this script with elevated permissions (sudo) for {file_path}.")
+        print(f"Permission denied: Try running this script with elevated permissions (sudo) for {
+              file_path}.")
     except FileNotFoundError:
-        print(f"File not found: Check that the path to {file_path} is correct.")
+        print(f"File not found: Check that the path to {
+              file_path} is correct.")
 
 
 # Paths and icons for each application
@@ -39,6 +43,7 @@ applications = {
     "alacritty": "/usr/share/applications/Alacritty.desktop",
     "vesktop": "/usr/share/applications/vesktop.desktop",
     "obsidian": "/usr/share/applications/obsidian.desktop",
+    "pycharm": "/usr/share/applications/pycharm-professional.desktop",
 
 }
 
@@ -50,6 +55,7 @@ new_icons = {
     "alacritty": "/home/lakshan/Applications/resetIcons/CustomIcons/alacritty.svg",
     "vesktop": "/home/lakshan/Applications/resetIcons/CustomIcons/clamtk.svg",
     "obsidian": "/home/lakshan/Applications/resetIcons/CustomIcons/obsidian.svg",
+    "pycharm": "/home/lakshan/Applications/resetIcons/CustomIcons/pycharm.svg",
 }
 
 # Update icons for each application
